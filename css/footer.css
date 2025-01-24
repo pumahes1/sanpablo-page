@@ -1,0 +1,18 @@
+.footer{
+  padding-block: 3rem 2rem;
+  background-color: #B10000;
+  color: #ededed;
+}
+
+.footer__container{
+  row-gap: 2rem;
+}
+
+.footer__logo{}
+
+.footer__copy{
+  display: block;
+  text-align-last: center;
+  font-size: .813rem;
+  margin-top: 3.5rem;
+}

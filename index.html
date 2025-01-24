@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#B10000" />
+    <meta
+      name="description"
+      content="Descubre el Colegio San Pablo: una institución con más de 15 años de experiencia, ofreciendo educación de calidad en los niveles Inicial, Primaria y Secundaria. Formamos líderes con valores, conciencia ambiental y bienestar emocional."
+    />
+    <title>Colegio San Pablo - Tacna</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="assets/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/brands.min.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/solid.min.css" rel="stylesheet" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="" class="nav__logo">
+            <img src="img/logo-sanpablo.png" alt="" />
+          </a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#" class="nav__link">Inicio</a></li>
+            <li><a href="#" class="nav__link">Nosotros</a></li>
+            <!--=============== DROPDOWN ===============-->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Niveles <i class="fa-solid fa-chevron-up dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown__menu">
+                <li><a href="" class="dropdown__link">Inicial</a></li>
+                <li><a href="" class="dropdown__link">Primaria</a></li>
+                <li><a href="" class="dropdown__link">Secundaria</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#" class="nav__link">Contáctanos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <p class="home__title" id="element"></p>
+            <button class="cta">
+              <span class="hover-underline-animation">Más Información</span>
+              <svg
+                id="arrow-horizontal"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="10"
+                viewBox="0 0 46 16"
+              >
+                <path
+                  id="Path_10"
+                  data-name="Path 10"
+                  d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                  transform="translate(30)"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <img class="home__main-image" src="img/imagen-fondo.png" alt="" />
+        </div>
+      </section>
+      <!-- INFO SCHOOL -->
+      <section class="info section">
+        <div class="info__container container grid">
+          <div class="info__data">
+            <div class="section__title-container">
+              <p class="section__title">
+                Bienvenidos al <br class="mobile-break" />Colegio San Pablo
+              </p>
+            </div>
+            <p class="info__description">
+              Con más de 15 años de experiencia, somos una institución dedicada
+              a la formación integral en los niveles de Inicial, Primaria y
+              Secundaria. Nos comprometemos a fomentar valores sólidos, el
+              desarrollo de la conciencia ambiental y el bienestar emocional de
+              nuestros alumnos.
+            </p>
+            <p class="info__description">
+              En nuestra institución innovamos constantemente para ofrecer una
+              educación de calidad que impacte positivamente en la vida de
+              nuestros estudiantes y sus familias, formando líderes responsables
+              y comprometidos con el futuro.
+            </p>
+            <div class="polaroid">
+              <img src="img/colegio.webp" alt="Estudiantes San Pablinos" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- EDUCATION SCHOOL -->
+      <section class="education section">
+        <div class="education__container container grid">
+          <div class="section__title-container">
+            <p class="section__title">
+              Nuestros Niveles <br class="mobile-break" />Educativos
+            </p>
+          </div>
+
+          <!-- Nivel Inicial -->
+          <article class="card">
+            <img
+              class="card__thumbnail"
+              src="img/autonomia-y-autoregulacion.jpg-1.webp"
+              alt="Estudiantes desarrollando sus habilidades en el nivel inicial"
+            />
+            <h3 class="card__title">INICIAL</h3>
+            <p class="card__description">
+              Nivel Inicial está orientado a niños y niñas entre 3 y 5 años,
+              desarrollando sus potencialidades físicas, afectivas y cognitivas
+              con el aporte de la familia y la comunidad.
+            </p>
+          </article>
+
+          <!-- Nivel Primaria -->
+          <article class="card">
+            <img
+              class="card__thumbnail"
+              src="img/autonomia-y-autoregulacion.jpg-1.webp"
+              alt="Estudiantes desarrollando sus habilidades en el nivel inicial"
+            />
+            <h3 class="card__title">PRIMARIA</h3>
+            <p class="card__description">
+              Educa integralmente a niños y niñas entre 6 y 11 años, promoviendo
+              sus habilidades educativas, el manejo operacional del
+              conocimiento, el desarrollo espiritual y físico.
+            </p>
+          </article>
+
+          <!-- Nivel Secundaria -->
+          <article class="card">
+            <img
+              class="card__thumbnail"
+              src="img/autonomia-y-autoregulacion.jpg-1.webp"
+              alt="Estudiantes desarrollando sus habilidades en el nivel inicial"
+            />
+            <h3 class="card__title">SECUNDARIA</h3>
+            <p class="card__description">
+              El trabajo académico orientado a nuestros jóvenes se basa en el
+              desarrollo de capacidades, destrezas y habilidades; asi como su
+              preparación para la vida universitaria.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- DOCUMENTS SCHOOL -->
+      <section class="documents section">
+        <div class="documents__container container">
+          <div class="section__title-container">
+            <p class="section__title">Gestión Institucional</p>
+          </div>
+
+          <div class="swiper mySwiperDocuments">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="documents__item">
+                  <p class="documents__title">
+                    Reglamento Interno <br />
+                    San Pablo 2025
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1XblsXNMFahgZeqtZmHfFDuyOuiBSZYrN/view?usp=sharing"
+                    class="button"
+                  >
+                    Descargar
+                  </a>
+                </div>
+                <img class="documents__image" src="img/documents.webp" alt="" />
+              </div>
+
+              <div class="swiper-slide">
+                <div class="documents__item">
+                  <p class="documents__title">
+                    Programación Anual <br />
+                    San Pablo 2025
+                  </p>
+                  <a
+                    href="https://drive.google.com/file/d/1b1oDNq91im1y1OZc-Aq3C7pc_xS9gSzI/view"
+                    class="button"
+                  >
+                    Descargar
+                  </a>
+                </div>
+                <img class="documents__image" src="img/documents.webp" alt="" />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY SCHOOL -->
+      <section class="gallery section">
+        <div class="gallery__container container">
+          <div class="swiper mySwiperGallery">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide polaroid">
+                <img src="img/DSC01383-small.webp" loading="lazy" alt="" />
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide polaroid">
+                <img src="img/DSC01386-small.webp" loading="lazy" alt="" />
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide polaroid">
+                <img src="img/DSC01387-small.webp" loading="lazy" alt="" />
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide polaroid">
+                <img src="img/DSC01397-small.webp" loading="lazy" alt="" />
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide polaroid">
+                <img src="img/DSC01398-small.webp" loading="lazy" alt="" />
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+              <div class="swiper-slide polaroid">
+                <img src="img/DSC01400-small.webp" alt="" />
+              </div>
+              <div class="swiper-slide polaroid">
+                <img src="img/DSC01423-small.webp" loading="lazy" alt="" />
+                <div class="swiper-lazy-preloader"></div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOIN US  -->
+      <section class="join-us section">
+        <div class="join-us__container container grid">
+          <h2 class="join-us__title">
+            ÚNETE Y SÉ PARTE DE NUESTRA FAMILIA SAN PABLINA
+          </h2>
+          <div class="join-us__data">
+            <a href="" class="button">Más información</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT US SCHOOL -->
+      <section class="contact section">
+        <div class="contact__container container grid">
+          <div class="contact__content grid">
+            <img
+              src="img/isotipo-sanpablo.png"
+              alt="Logo del Colegio San Pablo"
+              class="contact__img"
+            />
+            <p class="contact__text">
+              - Resolución Directoral Regional Nº 001397 de Funcionamiento del
+              Nivel Inicial y Primaria.
+            </p>
+            <p class="contact__text">
+              - Resolución Directoral Regional Nº 001397 de Funcionamiento del
+              Nivel Secundaria.
+            </p>
+          </div>
+
+          <div class="contact__content grid">
+            <p class="contact__title">SAN PABLO</p>
+
+            <address class="contact__info">
+              <i class="fa-solid fa-location-dot"></i>
+              Calle Gil de Herrera #505 - Cercado de Tacna
+            </address>
+            <address class="contact__info">
+              <i class="fa-solid fa-phone"></i>
+              (052) 601781 / 983 634 380
+            </address>
+            <address class="contact__info">
+              <i class="fa-solid fa-envelope"></i>
+              secretaria@iepsanpablotacna.edu.pe
+            </address>
+
+            <div class="contact__social">
+              <a
+                href="https://www.facebook.com/ColegioSanPabloTacna"
+                aria-label="Facebook San Pablo"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" aria-label="Whatsapp San Pablo">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <span class="footer__copyright">
+          Derechos reservados © 2024 | Colegio San Pablo - Tacna
+        </span>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
